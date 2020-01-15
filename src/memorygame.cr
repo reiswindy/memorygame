@@ -71,7 +71,7 @@ module Memorygame
 
     getter :card_value
     getter :sprite
-    
+
     def visible?
       @visible
     end
@@ -141,7 +141,7 @@ module Memorygame
       sep_y = (150 / 6.0).round.to_i
       @cards.each_with_index do |card, ind|
         x = ind % 6
-        y = ind / 6
+        y = ind // 6
         pos_x = (sep_x + Card::CARD_WIDTH * x + 2 * x * sep_x)
         pos_y = (sep_y + Card::CARD_HEIGHT * y + 2 * y * sep_y)
         card.move({pos_x, pos_y})
