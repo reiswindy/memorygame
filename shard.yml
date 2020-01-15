@@ -1,0 +1,13 @@
+name: memorygame
+version: 0.1.0
+
+authors:
+  - reiswindy <megamanbn@gmail.com>
+
+targets:
+  memorygame:
+    main: src/memorygame.cr
+
+crystal: 0.26.0
+
+license: MIT
