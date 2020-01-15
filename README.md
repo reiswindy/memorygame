@@ -1,22 +1,26 @@
 # memorygame
 
-TODO: Write a description here
+Memory card matching game made with CrSFML
 
 ## Installation
 
-TODO: Write installation instructions here
+This game requires [crsfml](https://github.com/oprypin/crsfml) to be installed using [Approach 1](https://github.com/oprypin/crsfml#approach-1).
+
+Afterwards, build the game from the root folder:
+```
+$ shards --production build --release
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+Run from the root folder:
+```
+$ bin/memorygame
+```
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/memorygame/fork>)
+1. Fork it (<https://github.com/reiswindy/memorygame/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +28,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) reiswindy - creator, maintainer
+- [reiswindy](https://github.com/reiswindy) - creator, maintainer
