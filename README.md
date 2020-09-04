@@ -2,11 +2,12 @@
 
 Memory card matching game made with CrSFML
 
+## Requirements
+- [SFML](https://www.sfml-dev.org/) 2.3 or greater
+
 ## Installation
 
-This game requires [crsfml](https://github.com/oprypin/crsfml) to be installed using [Approach 1](https://github.com/oprypin/crsfml#approach-1).
-
-Afterwards, build the game from the root folder:
+Run from root folder:
 ```
 $ shards --production build --release
 ```
